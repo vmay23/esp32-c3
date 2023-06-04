@@ -47,16 +47,16 @@ aclocal 			# with any option needed (such as -I m4)
 autoconf
 automake --add-missing --force-missing
 
-echo'===================================='
-echo'compiling...                        '
-echo'===================================='
-echo''
+echo '===================================='
+echo 'compiling...                        '
+echo '===================================='
+echo ''
 make
 
-echo'===================================='
-echo'installing...                       '
-echo'===================================='
-echo''
+echo '===================================='
+echo 'installing...                       '
+echo '===================================='
+echo ''
 sudo make install
 sudo ldconfig
 
